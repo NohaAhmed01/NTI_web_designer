@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+#title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: cadetblue;
+}
+.card{
+  
+}
+.card img{
+    width: 500px;
+    height: 400px;
+
+}
+.card h2{
+    float:left;
+}
+.card span{
+    text-align: center;
+    float: right;
+    width: 50px;
+    height: 25px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+}
+.clr{
+    clear: both;
+}
+.section-one{
+    margin: auto;
+    padding:30px;
+}
+.card-margin{
+    width: 33.33%;
+    float: left;
+    border:2px solid gray;
+    border-radius: 3px; 
+    background-color: aqua;
+}
