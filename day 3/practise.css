@@ -11,15 +11,18 @@
     color: cadetblue;
 }
 .card{
-  
+    padding: 5px;
+    border:2px solid gray;
+    border-radius: 6px; 
 }
 .card img{
-    width: 500px;
-    height: 400px;
+   width: 100%;
+   height: 300px;
 
 }
 .card h2{
     float:left;
+    padding: 10px;
 }
 .card span{
     text-align: center;
@@ -30,6 +33,9 @@
     color: white;
     border-radius: 15px;
 }
+.card p{
+    padding: 10px;
+}
 .clr{
     clear: both;
 }
@@ -38,9 +44,17 @@
     padding:30px;
 }
 .card-margin{
+    padding: 20px;
     width: 33.33%;
     float: left;
-    border:2px solid gray;
-    border-radius: 3px; 
-    background-color: aqua;
+}
+@media screen and (max-width:992px) and (min-width:768px){
+ .card-margin{
+     width: 50%;
+ }
+}
+@media screen and (max-width:767px){
+ .card-margin{
+     width: 100%;
+ }
 }
